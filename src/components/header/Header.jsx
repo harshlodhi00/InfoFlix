@@ -8,6 +8,7 @@ import "./style.scss";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 import logo from "../../assets/1.png";
+import { toast } from "react-toastify";
 
 const Header = () => {
   const [show, setShow] = useState("top");
